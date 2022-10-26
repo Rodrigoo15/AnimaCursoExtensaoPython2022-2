@@ -9,3 +9,4 @@ idade = 21
 
 # exibir o nome na variável nome
 print(nome)
+print(idade)
