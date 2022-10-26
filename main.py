@@ -1,27 +1,34 @@
+# Aula 19/10
 # Primeiro projeto Python!
 # print () = comando de saida
 
-print ("Hello world!")
+# print ("Hello world!")
 
 # Quando quiser guardar uma String! (frase)
-nome = "Rodrigo Oliveira"
+#nome = "Rodrigo Oliveira"
 idade = "21"
 
 # exibir o nome na variável nome
-print(nome)
+#print(nome)
 
 # Variável "minh idade é" completando o com o conteudo da variável.
-print("minha idade é" + idade)
+#print("minha idade é" + idade)
 
 
-# aula 26/10
+# Aula 26/10
 
 # para digitar qualquer coisa input() codigo de entrada
-nome = input("Digite seu nome ")
-idade = int(input("Sua idade é "))
+nome = input("Digite seu nome: ")
+idade = int(input("Sua idade é: "))
 
-# Escreva seu nome;
-print("Digite seu nome: ")
+# Adicionanco o "Seu nome é " e "Sua idade é ";
+print(f"Seu nome é {nome}")
+print(f"Sua idade é {idade}")
+
+# Para mostrar o dobro da idade;
+dobro = idade * 2
+
+print("O dobro da sua idade é {} ".format(dobro))
 
 # Estrutura condicional - "SE" (if)
 # Se a pessoa for maior de idade , mostre "Você é maior de idade. Otimo! já pode beber"
