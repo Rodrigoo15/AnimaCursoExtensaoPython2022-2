@@ -6,7 +6,7 @@
 
 # Quando quiser guardar uma String! (frase)
 #nome = "Rodrigo Oliveira"
-idade = "21"
+#idade = "21"
 
 # exibir o nome na variável nome
 #print(nome)
@@ -34,3 +34,12 @@ print("O dobro da sua idade é {} ".format(dobro))
 # Se a pessoa for maior de idade , mostre "Você é maior de idade. Otimo! já pode beber"
 if (idade >= 18):
   print("Você é maior de idade, ótimo! Já pode beber")
+else:
+  print("Você é menor de idade!")
+# E se quisessem perguntar o gênero (M = Masculino e F = Feminino)
+# Mostre (... e você também precisa precisou orestar o serviço militar obrigatório)
+genero = input("informe seu gênero M=Masculino, F=Feminino: ")
+if idade >=18 and genero == "M":
+  print("... e você também precisa/precisou presta o serviço militar obrigatório")
+
+print ("Seja bem vindo!")
