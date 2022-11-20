@@ -14,11 +14,24 @@ print (imposto2)
 
 # Declaração da função (como funciona)
 def calcular_imposto(preco_produto):
-  imposto = preco_produto * 0.05
+  imposto = preco_produto * 0.07
   return imposto
   
 #Aqui é o uso... aqui é o imposto a calcular... e axibir na tela
 preco = 299
 imposto = calcular_imposto(preco)
-print (imposto)
+print(f"Esse aqui é com a função (7%);{imposto}")
 
+# explicação de variável local x global
+print(preco)
+preco_produto = 100
+print(preco_produto)
+
+# agora calcular imposto a alíquota agora é 7%
+
+valores = [1.99, 24.50, 78.27, 1515.5]
+# se eu quiser calcular o imposto destes 4 valores e exibir na tela da seguinte forma: "O imposto de (valor) é..."
+for valor in valores:
+  print(f"O imposto de {valor} é {calcular_imposto(valor)}")
+
+#
