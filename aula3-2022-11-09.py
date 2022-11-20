@@ -40,4 +40,7 @@ while(i<len(frutas)):
   print (frutas[i])
   i=i+1
 
-# jeito mais facil...
+print ("Exemplo daas frutas com FOR")
+for fruta in frutas:
+  print (fruta)
+
