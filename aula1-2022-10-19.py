@@ -1,5 +1,6 @@
+# Aula 19/10
 # Primeiro projeto Python!
-# print () = comando de saida
+print () 
 
 print ("Hello world!")
 
@@ -10,5 +11,5 @@ idade = "21"
 # exibir o nome na variável nome
 print(nome)
 
-# Variável "minh idade é" completando o com o conteudo da variável.
+# Variável "minha idade é" completando o com o conteudo da variável.
 print("minha idade é" + idade)
